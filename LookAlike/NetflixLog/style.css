@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+
+
+}
+.header{
+    width: 100%;
+    padding: 255%;
+    margin-left: 10%;
+    display: flex;
+    margin-bottom: 35%;
+    position: relative;
+
+    
+}
+
+
+body{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(background-netflix.jpg);
+    background-size: cover; 
+   
+  
+    margin-top: 5%;
+}
+.logo {
+    background: linear-gradient(180deg,rgba(0,0,0,.5) 0,transparent);
+    border-bottom: transparent;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+img {
+    margin-left: 50px;
+    width: 200px;
+    height: 100px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.card {
+    background-color: rgba(0,0,0,.75);
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-bottom: 0px;
+  height: 650px;
+  width: 450px;
+  padding: 35px;
+  align-items: center;
+  
+}
+
+.title {
+    margin-left: 2em;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:15px;
+    color: #fdedee;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 20em;
+    height: 2em;
+    display: flex;
+    position: relative;
+    background-color: #333;
+    border: 0px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #676767;
+    padding: 12px;
+   
+}
+
+.form-btn{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    
+    width: 85%;
+    height: 50px;
+    background-color: #e50914;
+    border: 0px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #fdedee;
+}
+.bottom-card-elements {
+    width: 85%;
+    align-items: center;
+    display: inline;
+    justify-content: center;
+    margin: 0;
+    padding: 0%;
+    font-size: 13px;
+    margin-bottom: 15px;
+    
+    color: #676767;
+}
+
+.need-help{
+    font-family: 'Open Sans', sans-serif;
+    color: #676767;
+    text-decoration: none;
+    margin-left: 7.4em;
+}
+
+
+
+.check{
+    margin-top: 10px;
+    width: 5%;
+    background-color: #676767;
+    font-family: 'Open Sans', sans-serif;
+    accent-color: #676767;
+    
+}
+
+scales{
+    color: #fdedee;
+    margin-top: 0.4em;
+    font-size:  15px;
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    color: #676767;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    color: #fdedee;
+    text-decoration: none
+}
+.end-card{
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.end{
+    color: blue;
+}
+
+
+footer {
+    background-color: rgba(0,0,0,.75);  
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+}
